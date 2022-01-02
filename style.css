@@ -1,0 +1,97 @@
+html {
+  font-size: 12px;
+  background-color: #0e0e44;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 75px;
+  background-color: #6075a4;
+  position: absolute;
+  font-size: 2rem;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.logo {
+  height: 50px;
+  padding: 10px;
+}
+
+#fahrenheit,
+#celsius {
+  padding: 10px;
+  margin: 5px;
+  font-size: 1.5rem;
+}
+
+.searchBar {
+  height: 30px;
+  font-size: 2.5rem;
+  padding: 0px;
+}
+
+.search {
+  border: 3px solid #0e0e44;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  height: 39px;
+}
+
+.searchButton {
+  background-color: #0e0e44;
+  height: 34px;
+  box-sizing: border-box;
+  margin: 0px;
+  border: none;
+}
+
+.searchButton img {
+  height: 100%;
+}
+
+.summary {
+  border-radius: 15px;
+  padding: 20px;
+  width: 500px;
+  margin: auto;
+  margin-top: 90px;
+  background-color: #6075a4;
+  font-size: 2rem;
+}
+
+.overview {
+  display: flex;
+  justify-content: space-between;
+}
+
+.overview img {
+  height: 75px;
+}
+
+.details {
+  display: grid;
+  grid-template-columns: 225px 225px;
+  grid-template-rows: 30px 30px;
+  justify-content: center;
+  align-items: center;
+  grid-row-gap: 15px;
+  grid-column-gap: 9px;
+}
+
+.details p {
+  font-size: 1.5rem;
+  padding: 5px;
+}
+
+.active {
+  background-color: #0e0e44;
+  color: white;
+}
